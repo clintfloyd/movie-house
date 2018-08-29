@@ -13,61 +13,7 @@ Text Domain: twentyfifteen
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+body {
+  background-color: #212121; }
 
-body{
-	background-color: #000;
-	color: #fff;
-}
-
-header.homepage{
-	background-image: url(images/popcorn.jpg);
-	background-size: cover;
-	background-position: center;
-	height: 70vh;
-	min-height: 750px;
-	width: 100vw;
-}
-
-.middleContent{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-}
-.middleContent > div{
-	width: 100%;
-	text-align: center;
-}
-
-img.homepage-logo{
-	width: 200px;
-	position: absolute;
-    top: 40px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-input.homepage-search{
-	padding: 15px 30px;
-    width: 700px;
-    font-size: 2rem;
-    background: rgba(0, 0, 0, 0.9);
-    border: 1px solid #fff;
-    color: #fff;
-    font-weight: 200;
-    border-radius: 8px;
-    @include media-breakpoint-up(sm) {
-    	width: 100%;
-  	}
-}
-
-section.withPadding{
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.withBottomMargin{
-	margin-bottom: 30px;
-}
+/*# sourceMappingURL=style.css.map */
